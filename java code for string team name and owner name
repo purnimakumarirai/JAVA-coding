@@ -1,0 +1,16 @@
+public class Team {
+	String teamname;
+	String ownername; 
+	Team(){
+	}
+	Team(String teamname,String ownername){
+		this.teamname=teamname;
+		this.ownername=ownername;
+	}
+	public static void main(String[] args) {
+	 Team t1=new Team();
+	  System.out.println(t1.teamname +" "+t1.ownername);
+	 Team t2=new Team("csk","dhoni");
+	  System.out.println(t2.teamname +" "+t2.ownername);
+	}
+}
