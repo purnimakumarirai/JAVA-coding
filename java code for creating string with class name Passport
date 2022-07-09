@@ -1,0 +1,10 @@
+public class Passport {
+	String PassportNum;
+	String name;
+	 
+	Passport(String PassportNum,String name)
+	{
+		this.PassportNum=PassportNum;
+		this.name=name;
+	}
+}	
