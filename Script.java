@@ -8,7 +8,10 @@ else
 console.log("x is not available");
 
 if (x === undefined){
-console.log("x is a windoww object");k
-}else{
+console.log("x is a windoww object");
+
+}
+else
+{
 console.log("x is not a window object");
 }
